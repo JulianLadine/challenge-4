@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Questrial";
 }
 
 header {
@@ -12,7 +13,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  font-family: "Questrial";
+
 }
 
 .titre_et_icon {
@@ -29,7 +30,7 @@ li {
   list-style: none;
 }
 
-ul {
+nav ul {
   display: flex;
   justify-content: space-around;
   padding-left: 32%;
@@ -51,5 +52,122 @@ header nav ul li a:hover {
   text-decoration: none;
   color: #1F54A7;
   background-color: white;
+}
 
+main {
+  width: 93%;
+  margin:auto;
+}
+
+img {
+  width: 100%;
+	height: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.photo_et_texte {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height : 1200px;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: "Questrial";
+}
+
+.photo_et_texte p {
+  line-height: 1.5em;
+  font-family: "Questrial";
+  color: #5B6063;
+  width: 80%;
+  margin: auto;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+.first_liste {
+  border-top: 1px solid #5B6063;
+  text-align: center;
+  margin-bottom: 70px;
+
+}
+
+.first_liste ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  padding: 0em 3em;
+}
+
+.first_liste ul li {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 15em;
+padding: 0em 0.5em;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 26px;
+  color: black;
+}
+.first_liste p {
+  color: #5B6063;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+.first_liste a {
+  list-style: none;
+  text-decoration: none;
+  padding: 21px 32px 21px 32px;
+  background-color: #64ABD1;
+  color: white;
+}
+
+.seconde_liste {
+  border-top: 1px solid #5B6063;
+  text-align: center;
+
+
+}
+
+.seconde_liste ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  padding: 0em 3em;
+}
+
+.seconde_liste ul li {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 8em;
+padding: 0em 0.5em;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #5B6063;
+}
+.seconde_liste p {
+  color: #5B6063;
+  margin-bottom: 40px;
+}
+.seconde_liste a {
+  list-style: none;
+  text-decoration: none;
+  padding: 21px 32px 21px 32px;
+  background-color: #64ABD1;
+  color: white;
 }
